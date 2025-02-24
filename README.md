@@ -19,3 +19,12 @@ php -S localhost:8080 -t .
 ```
 ## Rendu
 ![Illustration du rendu](rendu.png)
+
+
+## Explications
+- style.css: Feuille de style. Mettre en forme + couleur + espacements...
+- index.php: Point d'entrée de l'application
+- Page00 - Page06 — Invisible, chargé *dynamiquement*
+- Moteur — Prend la décision du contenu à afficher (quelle page on affiche en fonction de l'URL) 
+- Menu - Affiche des différentes parties qui permettent de rediriger l'utilisateur
+- Chemin — Fil d'ariane qui permet de savoir ou on est
